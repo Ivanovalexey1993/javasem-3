@@ -1,19 +1,16 @@
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+
+import java.util.List;
 
 public class Task0 {
 
-    // Дан Deque состоящий из последовательности цифр.
-    // Необходимо проверить, что последовательность цифр является палиндромом
-    public static void main(String[] args) {
-        Deque<Integer> deque = new ArrayDeque<>(Arrays.asList(1,2,3,4,5,6));
+    // Дана последовательность чисел. Необходимо вернуть сумму уникальных чисел
+    public static void main(final String[] args) {
 
     }
 
+    public Integer getSumOfUniqueValues(final List<Integer> list){
 
-    public boolean checkOn(Deque<Integer> deque){
-
-        return false;
+        return 0;
     }
+
 }

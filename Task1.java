@@ -1,22 +1,18 @@
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.Deque;
+mport java.util.List;
 
 public class Task1 {
 
-    //Даны два Deque представляющие два неотрицательных целых числа. Цифры хранятся в обратном порядке,
-    // и каждый из их узлов содержит одну цифру.
-    // Сложите два числа и верните сумму в виде связанного списка.
-    public static void main(String[] args) {
-        Deque<Integer> d1 = new ArrayDeque<>(Arrays.asList(1,2,3));
-        Deque<Integer> d2 = new ArrayDeque<>(Arrays.asList(5,4,7));
-        // result [6,6,0,1]
+    // Дана последовательность чисел. Необходимо вернуть число совпадающих пар в этой последовательности
+    // Пример 1:     In: arr = [1, 2]  Out: 0
+    // Пример 2:     In: arr = [1, 1, 2]  Out: 1
+    // Пример 3:     In: arr = [1, 1, 1, 2, 2]  Out: 4
+    public static void main(final String[] args) {
 
     }
 
+    public Integer getNumberOfCouples(final List<Integer> list){
 
-    public Deque<Integer> sum(Deque<Integer> d1, Deque<Integer> d2) {
-
-        return new ArrayDeque<>();
+        return 0;
     }
+
 }
